@@ -1,4 +1,5 @@
 // src/app/page.jsx
+"use client";
 import NTHULawResources from './NTHULawResources';
 
 // 頁面元數據，用於SEO優化
@@ -9,9 +10,5 @@ export const metadata = {
 };
 
 export default function Home() {
-  return (
-    <main className="min-h-screen">
-      <NTHULawResources />
-    </main>
-  );
+  return <NTHULawResources />;
 }
